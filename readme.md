@@ -332,6 +332,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 3.3.6 Веб-приложение для работы с модулем
 Для проверки работы модуля пока организовал несколько страниц. На страницах организована чистая функциональность, без приукрашательств. Организован переход между страницами, перенаправление в зависимости от успешности регистрации и авторизации. Организована логика взаимодействия с пользователем. Обработаны некоторые ошибки.
 Стартовая страница 
+<img width="1280" alt="Снимок экрана 2024-04-17 в 20 31 11" src="https://github.com/MikhailKostromin/Java_diplome-main-kostromin/assets/110930748/df7ed86f-f802-4394-83ac-9608492cd1dd">
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
@@ -361,6 +363,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 </html>
 
 Страница авторизации
+<img width="1280" alt="Снимок экрана 2024-04-17 в 20 53 44" src="https://github.com/MikhailKostromin/Java_diplome-main-kostromin/assets/110930748/1e604955-0192-4c20-815a-5249c1e61568">
+
+
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
 
@@ -391,6 +396,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 </html>
 
 Страница регистрации нового пользователя
+<img width="1280" alt="Снимок экрана 2024-04-17 в 20 52 40" src="https://github.com/MikhailKostromin/Java_diplome-main-kostromin/assets/110930748/768023e0-f614-447c-a4f9-dc2d314657c2">
+
+
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
@@ -494,6 +502,8 @@ spring.mvc.view.suffix = .jsp
 
 База данных развернута в контейнере Docker и запускается через .bat файл
 docker-compose.exe up -d
+
+<img width="1280" alt="Снимок экрана 2024-04-17 в 20 32 13" src="https://github.com/MikhailKostromin/Java_diplome-main-kostromin/assets/110930748/34b9f327-81a1-434c-8062-7ca3b358689f">
 
 Настройки запуска прописаны в docker-compose.yml
 version: '3'
